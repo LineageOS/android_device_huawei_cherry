@@ -16,6 +16,24 @@
       "revId": "a6ac1eed7f3ea116dcf9765b1feac08fad2edaa4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fcbff3d_ed3a8ee5",
+        "filename": "system.prop",
+        "patchSetId": 4
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 5531
+      },
+      "writtenOn": "2016-01-29T13:55:42Z",
+      "side": 1,
+      "message": "oops, i was grepping cm-12.1. this exists... carry on",
+      "parentUuid": "1fcbff3d_2d31760c",
+      "revId": "a6ac1eed7f3ea116dcf9765b1feac08fad2edaa4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
