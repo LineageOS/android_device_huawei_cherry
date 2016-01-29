@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fcbff3d_2d31760c",
+        "filename": "system.prop",
+        "patchSetId": 4
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 5531
+      },
+      "writtenOn": "2016-01-29T13:51:17Z",
+      "side": 1,
+      "message": "i don\u0027t get any hits on this in source or blobs. are you sure simactivation is recognized by anything?",
+      "revId": "a6ac1eed7f3ea116dcf9765b1feac08fad2edaa4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
