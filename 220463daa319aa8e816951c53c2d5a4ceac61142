@@ -1,0 +1,211 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bfb3d3c7_08cb87a5",
+        "filename": "audio/mixer_paths_qrd_skuh.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2016-03-15T14:27:59Z",
+      "side": 1,
+      "message": "spaces",
+      "range": {
+        "startLine": 89,
+        "startChar": 0,
+        "endLine": 89,
+        "endChar": 1
+      },
+      "revId": "220463daa319aa8e816951c53c2d5a4ceac61142",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bfb3d3c7_c8c48f95",
+        "filename": "device.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 248,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2016-03-15T14:27:59Z",
+      "side": 1,
+      "message": "spaces instead of tabs",
+      "range": {
+        "startLine": 248,
+        "startChar": 0,
+        "endLine": 248,
+        "endChar": 1
+      },
+      "revId": "220463daa319aa8e816951c53c2d5a4ceac61142",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bfb3d3c7_28d0cb50",
+        "filename": "device.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 253,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2016-03-15T14:27:59Z",
+      "side": 1,
+      "message": "whitespace",
+      "range": {
+        "startLine": 253,
+        "startChar": 23,
+        "endLine": 253,
+        "endChar": 24
+      },
+      "revId": "220463daa319aa8e816951c53c2d5a4ceac61142",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bfb3d3c7_e8c15382",
+        "filename": "device.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 264,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2016-03-15T14:27:59Z",
+      "side": 1,
+      "message": "spaces",
+      "range": {
+        "startLine": 264,
+        "startChar": 0,
+        "endLine": 264,
+        "endChar": 1
+      },
+      "revId": "220463daa319aa8e816951c53c2d5a4ceac61142",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bfb3d3c7_88be97fd",
+        "filename": "init/init_cherry.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2016-03-15T14:27:59Z",
+      "side": 1,
+      "message": "spaces",
+      "range": {
+        "startLine": 133,
+        "startChar": 0,
+        "endLine": 133,
+        "endChar": 1
+      },
+      "revId": "220463daa319aa8e816951c53c2d5a4ceac61142",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bfb3d3c7_a8bb5b0c",
+        "filename": "init/init_cherry.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2016-03-15T14:27:59Z",
+      "side": 1,
+      "message": "spaces",
+      "range": {
+        "startLine": 143,
+        "startChar": 0,
+        "endLine": 143,
+        "endChar": 2
+      },
+      "revId": "220463daa319aa8e816951c53c2d5a4ceac61142",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bfb3d3c7_08406707",
+        "filename": "releasetools/device_check.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2016-03-15T14:27:59Z",
+      "side": 1,
+      "message": "This seems inelegant and hacky. Shouldn\u0027t this warrant a new device build in general?",
+      "range": {
+        "startLine": 22,
+        "startChar": 0,
+        "endLine": 22,
+        "endChar": 44
+      },
+      "revId": "220463daa319aa8e816951c53c2d5a4ceac61142",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bfb3d3c7_683b239c",
+        "filename": "rootdir/etc/init.qcom.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2016-03-15T14:27:59Z",
+      "side": 1,
+      "message": "spaces",
+      "range": {
+        "startLine": 83,
+        "startChar": 0,
+        "endLine": 83,
+        "endChar": 1
+      },
+      "revId": "220463daa319aa8e816951c53c2d5a4ceac61142",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bfb3d3c7_48365fb7",
+        "filename": "rootdir/etc/init.qcom.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2016-03-15T14:27:59Z",
+      "side": 1,
+      "message": "whitespace",
+      "range": {
+        "startLine": 87,
+        "startChar": 0,
+        "endLine": 87,
+        "endChar": 1
+      },
+      "revId": "220463daa319aa8e816951c53c2d5a4ceac61142",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
