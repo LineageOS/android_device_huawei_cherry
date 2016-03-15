@@ -163,6 +163,30 @@
     },
     {
       "key": {
+        "uuid": "bfb3d3c7_6809e3db",
+        "filename": "releasetools/device_check.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 10258
+      },
+      "writtenOn": "2016-03-15T14:41:03Z",
+      "side": 1,
+      "message": "This is the only difference, if add a new device, users might become confused to choose the correct package.",
+      "parentUuid": "bfb3d3c7_08406707",
+      "range": {
+        "startLine": 22,
+        "startChar": 0,
+        "endLine": 22,
+        "endChar": 44
+      },
+      "revId": "220463daa319aa8e816951c53c2d5a4ceac61142",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bfb3d3c7_683b239c",
         "filename": "rootdir/etc/init.qcom.rc",
         "patchSetId": 1
