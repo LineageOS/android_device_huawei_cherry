@@ -1,4 +1,5 @@
 # Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,11 +19,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit device configuration
 $(call inherit-product, device/huawei/cherry/device.mk)
 
-# Inherit some common CM stuff.
+# Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 PRODUCT_DEVICE := cherry
-PRODUCT_NAME := cm_cherry
+PRODUCT_NAME := lineage_cherry
 PRODUCT_BRAND := Huawei
 PRODUCT_MODEL := cherry
 PRODUCT_MANUFACTURER := HUAWEI
