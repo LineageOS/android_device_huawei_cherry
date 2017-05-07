@@ -24,11 +24,14 @@ RESULT=$(echo $NFC_MODEL | grep "$PRODUCT_MODEL")
 if [[ "$RESULT" = "" ]]
 then
     # Remove NFC
-    rm -rf /system/app/QNfc
+    rm -rf /system/vendor/app/QNfc
+    rm -rf /system/vendor/app/GsmaNfcService
     rm -rf /system/priv-app/Tag
-    rm -rf /system/lib/*nfc*
     rm -rf /system/etc/*nfc*
     rm -rf /system/etc/permissions/*nfc*
+    rm -rf /system/etc/permissions/*gsma*
     rm -rf /system/framework/*nfc*
+    rm -rf /system/framework/*gsma*
     rm -rf /system/vendor/lib/*nfc*
+    rm -rf /system/vendor/lib/hw/nfc_nci.qc199x.default.so
 fi
