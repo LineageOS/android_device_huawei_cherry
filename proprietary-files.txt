@@ -1,6 +1,6 @@
 # NFC
--vendor/app/GsmaNfcService/GsmaNfcService.apk
--vendor/app/QNfc/QNfc.apk
+#-vendor/app/GsmaNfcService/GsmaNfcService.apk
+#-vendor/app/QNfc/QNfc.apk
 vendor/etc/nfc/hardfault.cfg
 vendor/etc/permissions/com.android.nfc.helper.xml
 vendor/etc/permissions/com.android.qualcomm.qti.nfc_extras.xml
