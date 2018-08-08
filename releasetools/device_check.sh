@@ -1,7 +1,7 @@
 #!/sbin/sh
 #
 # Copyright (C) 2016 CyanogenMod Project
-#
+# Copyright (C) 2018 LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -24,14 +24,5 @@ RESULT=$(echo $NFC_MODEL | grep "$PRODUCT_MODEL")
 if [[ "$RESULT" = "" ]]
 then
     # Remove NFC
-    rm -rf /system/vendor/app/QNfc
-    rm -rf /system/vendor/app/GsmaNfcService
-    rm -rf /system/priv-app/Tag
-    rm -rf /system/etc/*nfc*
-    rm -rf /system/etc/permissions/*nfc*
-    rm -rf /system/etc/permissions/*gsma*
-    rm -rf /system/framework/*nfc*
-    rm -rf /system/framework/*gsma*
-    rm -rf /system/vendor/lib/*nfc*
-    rm -rf /system/vendor/lib/hw/nfc_nci.qc199x.default.so
+    rm /system/vendor/etc/permissions/android.hardware.nfc.xml
 fi
