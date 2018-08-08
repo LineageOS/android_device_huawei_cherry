@@ -18,6 +18,37 @@ $(call inherit-product, vendor/huawei/cherry/cherry-vendor.mk)
 
 # NFC
 PRODUCT_PACKAGES += \
+    libqnfc-nci \
+    libqnfc_nci_jni \
+    nfc_nci.qc199x.default \
+    QNfc \
+    Tag \
+    GsmaNfcService \
+    com.gsma.services.nfc \
+    com.gsma.services.utils \
+    com.gsma.services.nfc.xml \
+    com.android.nfc_extras \
+    com.android.qualcomm.qti.nfc_extras \
+    com.android.qualcomm.qti.nfc_extras.xml \
+    com.android.nfc.helper \
+    com.android.nfc.helper.xml \
+    SmartcardService \
+    org.simalliance.openmobileapi \
+    org.simalliance.openmobileapi.xml \
+    com.vzw.nfc \
+    com.vzw.nfc.xml \
+    libassd
+
+PRODUCT_PACKAGES += \
+    Signedrompatch_v20.bin \
+    Signedrompatch_v21.bin \
+    Signedrompatch_v24.bin \
+    Signedrompatch_v30.bin \
+    nfc_test.bin \
+    fused_nvm.bin \
+    hardfault.cfg
+
+PRODUCT_PACKAGES += \
     android.hardware.nfc@1.0-impl-qc199x
 
 PRODUCT_COPY_FILES += \
