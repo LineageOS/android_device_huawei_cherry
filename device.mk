@@ -21,4 +21,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/nfc-nci.conf \
     $(LOCAL_PATH)/releasetools/device_check.sh:install/bin/device_check.sh
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.hardware.nfc_nci=qc199x.default
+
 $(call inherit-product, device/huawei/msm8916-common/msm8916.mk)
